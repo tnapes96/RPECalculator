@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RPECalculator.Views.RpeChartPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Visual="Material"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Label Text="Last set"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <TableView Intent="Data">
+                    <TableSection>
+                        <EntryCell Text="Weight"/>
+                        <EntryCell Text="Reps"/>
+                        <EntryCell Text="RPE"/>
+
+                    </TableSection>
+                </TableView-->
+
+                <Frame Margin="20">
+
+                    <Grid ColumnSpacing="8"
+                          RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            FontSize="48"
+                            HorizontalOptions="Center"
+                            Text="Last Set"
+                            VerticalOptions="Center" />
+
+                        <Entry
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Placeholder="Weight" />
+
+                        <Entry
+                            Placeholder="Reps"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Margin="0,0,15,0" />
+
+                        <Entry
+                            Placeholder="RPE"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Margin="15,0,0,0" />
+
+                        <Label
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="@"
+                            VerticalOptions="Center" />
+
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Text="CALCULATE"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+                    </Grid>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

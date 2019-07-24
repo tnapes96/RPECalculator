@@ -1,0 +1,15 @@
+E:\repos\RPECalculator\RPECalculator\bin\Debug\netstandard2.0\RPECalculator.deps.json
+E:\repos\RPECalculator\RPECalculator\bin\Debug\netstandard2.0\RPECalculator.dll
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.csprojAssemblyReference.cache
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\Views\RpeChartPage.xaml.g.cs
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.csproj.CoreCompileInputs.cache
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.AssemblyInfoInputs.cache
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.AssemblyInfo.cs
+E:\repos\RPECalculator\RPECalculator\bin\Debug\netstandard2.0\ref\RPECalculator.dll
+E:\repos\RPECalculator\RPECalculator\bin\Debug\netstandard2.0\RPECalculator.pdb
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\XamlC.stamp
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.dll
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\ref\RPECalculator.dll
+E:\repos\RPECalculator\RPECalculator\obj\Debug\netstandard2.0\RPECalculator.pdb
